@@ -7,7 +7,7 @@ This project includes using machine learning techniques to determine credit card
 ### RandomOverSampler
 * ![image](https://user-images.githubusercontent.com/89048287/147279090-edfaddde-a03d-4062-8167-1c9247127f18.png)
 * Balanced Accuracy Score: .642
-* This model has a precision score of .99 and a sensitivity score of .58. This is combined into an F1 score of .73. Overall, this could be a relatively successful model. 
+* This model has a precision score of .99 and a sensitivity score of .58. This is combined into an F1 score of .73. Overall, this could be a relatively successful model for the data. 
 
 ### SMOTE
 * ![image](https://user-images.githubusercontent.com/89048287/147280817-26b731e0-c80b-46e0-8f04-8faeab14a581.png)
@@ -22,13 +22,18 @@ This project includes using machine learning techniques to determine credit card
 ### SMOTEEN
 * ![image](https://user-images.githubusercontent.com/89048287/147279160-b7a3f7be-079c-4fa7-94b5-624c6cbf3d13.png)
 * Balanced Accuracy Score: .544
+* This model has a precision score of .99 and a sensitivity score of .56. The F1 score of .71 suggests that this could be a relatively good fit for the data. 
 
 ### BalancedRandomForestClassifier
 * ![image](https://user-images.githubusercontent.com/89048287/147279238-08dcea75-b3d2-473f-a772-9c8ebdd9be5e.png)
 * ![image](https://user-images.githubusercontent.com/89048287/147279274-9928283c-b7cf-4b04-a9bc-9c3ba4563710.png)
 * Balanced Accuracy Score: .712
+* This model has a precision score of .99 and a sensitivity score of .82. The F1 score of .89 suggests that this is a very good fit for the data. 
 
 ### EasyEnsembleClassifier
 * ![image](https://user-images.githubusercontent.com/89048287/147279320-faa182f2-3fcc-41c7-ab8b-f9cb86020c66.png)
 * Balanced Accuracy Score: .723
+* This model has a precision score of .99 and a sensitivity score of .76. The F1 score of .86 suggests that this is a very good fit for the data. 
+
 ## Summary 
+For these models to be successful, they would need to be both precise and relatively sensitive. The best model for this data proved to be the Balanced Random Forest Classifier. It had the highest sensitivity score of .82, which also led to the highest F1 score. 
