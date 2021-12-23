@@ -25,8 +25,8 @@ This model has a precision score of .99 and a sensitivity score of .41. The F1 s
 Balanced Accuracy Score: .544
 
 ### BalancedRandomForestClassifier
-![image](https://user-images.githubusercontent.com/89048287/147279238-08dcea75-b3d2-473f-a772-9c8ebdd9be5e.png)
-![image](https://user-images.githubusercontent.com/89048287/147279274-9928283c-b7cf-4b04-a9bc-9c3ba4563710.png)
+* ![image](https://user-images.githubusercontent.com/89048287/147279238-08dcea75-b3d2-473f-a772-9c8ebdd9be5e.png)
+* ![image](https://user-images.githubusercontent.com/89048287/147279274-9928283c-b7cf-4b04-a9bc-9c3ba4563710.png)
 Balanced Accuracy Score: .712
 
 ### EasyEnsembleClassifier
