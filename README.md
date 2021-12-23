@@ -36,4 +36,4 @@ This project includes using machine learning techniques to determine credit card
 * This model has a precision score of .99 and a sensitivity score of .76. The F1 score of .86 suggests that this is a very good fit for the data. 
 
 ## Summary 
-For these models to be successful, they would need to be both precise and relatively sensitive. The best model for this data proved to be the Balanced Random Forest Classifier. It had the highest sensitivity score of .82, which also led to the highest F1 score. 
+For these models to be successful, they would need to be both precise and relatively sensitive. The best model for this data proved to be the Balanced Random Forest Classifier. It had the highest sensitivity score of .82, which also led to the highest F1 score. The next best option would be the Easy Ensemble Classifier, which had the highest balanced accuracy score of .723. It also had a very high F1 score of .82. 
